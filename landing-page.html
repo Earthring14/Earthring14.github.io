@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light dark" />
+    <link rel="stylesheet" href="./e2.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"
+    />
+    <style>
+            *{
+          box-sizing: border-box;
+          margin:0;
+      }
+
+      header{
+          display: flex;
+          align-items: center;
+          justify-content: space-around;
+          margin-left: 30%;
+          margin-right: 30%;
+          margin-top: 5%;
+      }
+
+      .sub-heading{
+          display: flex;
+          align-items: center;
+          justify-content: space-around;
+          margin-left: 20%;
+          margin-right: 20%;
+          margin-top: 3%;
+          font-size: xx-large;
+      }
+      p{
+          display: inline;
+      }
+
+      body{
+          padding: 0px;
+          margin: 0px;
+      }
+
+      .logo{
+          margin-left: 0%;
+      }
+
+      .nav-bar{
+          margin: 0%;
+          display: flex;
+          justify-content: space-between;
+      }
+
+      button{
+          height: 60px;
+          margin: 0%;
+          font-size: px;
+          padding: 0%;
+          text-align: center;
+      }
+
+      .buttons{
+          margin-right: 0px;
+      }
+
+      #learn-more{
+          display: flex;
+          align-items: center;
+          justify-content: space-around;
+          margin-left: 40%;
+          margin-right: 40%;
+          margin-top: 2%;
+      }
+
+      .quote{
+          display: block;
+          align-items: center;
+          margin-left: 30%;
+          margin-right: 30%;
+          margin-top: 2%;
+          padding: 10px;
+      }
+
+      .quote > i{
+          font-size: 15px;
+      }
+
+      .sign-up{
+          margin-top: 20px;
+      }
+
+      input{
+          width: 1000px;
+      }
+
+
+
+    </style>
+    <title>CANVAS</title>
+  </head>
+  <body>
+    <main class="container-fluid">
+      <div class="heading">
+        <div class="nav-bar">
+          <div class="logo">
+            <p>C</p>
+            <p>A</p>
+            <p>N</p>
+            <p>V</p>
+            <p>A</p>
+            <p>S</p>
+          </div>
+          <div class="buttons">
+            <button>Homepage</button>
+            <button class="outline secondary">About</button>
+            <button class="outline secondary">Contact</button>
+          </div>
+        </div>
+        <header>
+          <h1>C</h1>
+          <h1>A</h1>
+          <h1>N</h1>
+          <h1>V</h1>
+          <h1>A</h1>
+          <h1>S</h1>
+        </header>
+      </div>
+      <div class="sub-heading">A revolution in painting</div>
+      <button id="learn-more">Learn More</button>
+      <div class="quote">
+        <blockquote>Using CANVAS has changed the way I do my painting</blockquote>
+        <i>- Fieri Guy, Painter</i>
+      </div>
+      <div class="sign-up">
+        <form>
+          <fieldset class="grid">
+            <input
+              type="email"
+              name="email-address"
+              placeholder="Email address"
+              autocomplete="email"
+            />
+            <input type="submit" value="Subscribe" />
+          </fieldset>          
+        </form>
+      </div>
+    </main>
+  </body>
+</html>
